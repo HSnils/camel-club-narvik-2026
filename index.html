@@ -6,7 +6,6 @@
     <meta name="description" content="Camel Club Narvik 2026 Event Program">
     <meta name="theme-color" content="#0066cc">
     <title>Camel Club Narvik 2026</title>
-    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="icon-192.png">
 </head>
@@ -63,15 +62,5 @@
             </section>
         </main>
     </div>
-
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('service-worker.js')
-                    .then(reg => console.log('Service Worker registered'))
-                    .catch(err => console.log('Service Worker registration failed'));
-            });
-        }
-    </script>
 </body>
 </html>
