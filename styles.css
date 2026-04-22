@@ -66,7 +66,7 @@ header h2 {
 }
 
 .day {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -159,7 +159,7 @@ header h2 {
 }
 
 .day-card {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 8px;
   padding: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -192,7 +192,7 @@ header h2 {
 /* Back link on individual day pages */
 .back-link {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.7);
   color: #0066cc;
   padding: 12px 24px;
   border-radius: 8px;
