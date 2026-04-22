@@ -1,8 +1,20 @@
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { resolve } from 'path';
 
 export default defineConfig({
   base: '/camel-club-narvik-2026/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        thursday: resolve(__dirname, 'thursday.html'),
+        friday: resolve(__dirname, 'friday.html'),
+        saturday: resolve(__dirname, 'saturday.html'),
+        sunday: resolve(__dirname, 'sunday.html'),
+      },
+    },
+  },
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
